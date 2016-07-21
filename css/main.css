@@ -1,0 +1,170 @@
+* {
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Titillium Web', sans-serif;
+
+}
+body {
+	margin: 30px auto; /* the section or site container is centered */
+	width: 100%;
+	display: block; /* block so each container stacks */ 
+	background-color: #ededed;
+	text-align: center;
+}
+nav {
+	width: 95%;
+	height: 70px;
+	background-color: ;
+}
+nav i {
+	color: #c46f7f;
+}
+nav a {
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	text-decoration: none;
+	color: #2d2d2d;
+	position: absolute;
+	left: 30px;
+
+}
+nav ul {
+	position: absolute;
+	right: 30px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0px 25px 5px 25px;
+}
+nav ul li a {
+	color: #2d2d2d;
+	letter-spacing: 3px;
+}
+hr {
+	height: 1px;
+	background-color: #2d2d2d;
+}
+header {
+	width: 95%;
+	margin: 0 auto;
+	
+}
+header h1 {
+	font-size: 26px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	margin-top: 50px;
+}
+header h1 span{
+	color: #c46f7f;
+}
+header h4 {
+
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	margin-bottom: 50px;
+}
+header img {
+	width:100%;
+}
+article {
+	width: 95%;
+	margin: 0 auto;
+}
+article div {
+	width: 47%;
+	display: inline-block;
+	margin: 40px 0px;
+}
+article h2 {
+	font-family: 'Cookie', cursive;
+	color: #c46f7f;
+	font-size: 32px;
+}
+article p {
+	text-align: left;
+}
+article .about {
+	margin-right: 20px;
+}
+article .work {
+	margin-left: 20px;
+}
+.gallery {
+	width: 95%;
+	margin: 0 auto;
+}
+.gallery div {
+	width: 15%;
+	display: inline-block;
+	text-align: left;
+	border-radius: 10px;
+	margin: 13px;
+	background-color: #fff;
+}
+.gallery div img {
+	width: 100%;
+}
+.gallery div h2 {
+	font-size: 21px;
+	padding-left: 15px;
+	margin: 0;
+}
+.gallery div p {
+	color: #c46f7f;
+	padding-left: 15px;
+	margin: 0 0 15px 0;
+}
+.thanks {
+	margin: 0 auto;
+}
+.thanks h1 {
+	font-family: 'Cookie', cursive;
+	color: #c46f7f;
+	font-size: 35px;
+	padding: 40px 0;
+}
+footer {
+	width: 100%;
+	height: 400px;
+	background-color: #2d2d2d;
+	padding-top: 50px;
+}
+footer h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 32px;
+	color: #c46f7f;
+}
+footer .form {
+	width: 42%;
+	left: 25px;
+	text-align: left;
+	position: absolute;
+	
+	margin-left: 20px;
+}
+footer .form input {
+	width: 100%;
+	margin: 5px;
+	color: #000
+}
+footer .form textarea {
+	width: 100%;
+	margin: 5px;
+
+}
+footer button {
+	border: none;
+	background-color: transparent;
+	font-size: 14px;
+	color: #fff;
+}
+footer .social {
+	right: 25px;
+	width: 20%;
+	position: absolute;
+	padding-top: 140px;
+}
+footer .social img {
+	width: 100%;
+}
+
